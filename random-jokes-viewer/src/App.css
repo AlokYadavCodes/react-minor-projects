@@ -1,0 +1,36 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.app h1 {
+  margin: 0 0 24px;
+  font-size: 2rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.status {
+  text-align: center;
+  color: #4b5563;
+}
+
+.jokes-list {
+  display: grid;
+  gap: 16px;
+}
+
+.joke-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.joke-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #111827;
+}
